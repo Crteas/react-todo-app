@@ -46,7 +46,10 @@ function ToDoList() {
         </select>
       </form>
       <form onSubmit={handleSubmit(onSub)}>
-        <input {...register("customCategory")} />
+        <input
+          {...register("customCategory")}
+          placeholder="추가할 카테고리를 입력"
+        />
         <button>Add</button>
       </form>
       <CreateToDo />

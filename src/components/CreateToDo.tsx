@@ -21,6 +21,7 @@ function CreateToDo() {
         {...register("toDo", {
           required: "할 일이 비어있습니다.",
         })}
+        placeholder="할일을 적으세요"
       />
       <button>Add</button>
     </form>
